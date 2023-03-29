@@ -1,0 +1,7 @@
+﻿@page
+@model RandomLyricsModel
+
+<h1>Random Radiohead Lyric</h1>
+<p>@Model.Lyric</p>
+
+<button type="button" class="btn btn-primary" onclick="window.location.href='@Url.Page("RandomLyrics")'">Get Random Lyric</button>
